@@ -1,0 +1,21 @@
+.container {
+    height: 50px; 
+    width: 100%; 
+}
+
+.button {
+    border: 3px solid;
+}
+
+.buttons {
+  display: none !important;
+}
+
+.item:hover + .buttons {
+  display: inline-block !important;
+}
+
+
+.item {
+    text-transform: uppercase;
+}
